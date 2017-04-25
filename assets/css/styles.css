@@ -94,9 +94,14 @@ header .navbar-default ul.navbar-nav li a:hover {
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
+
+/*
+navbar 底線 hover後產生之顏色
+*/
 header .navbar-default ul.navbar-nav li a:hover:after {
-  background: #ffffff;
+  background: #e5d67e;
 }
+
 header .navbar-default ul.navbar-nav li a.getProduct {
   -webkit-border-radius: 5em;
   -moz-border-radius: 5em;
@@ -524,7 +529,7 @@ section::after {
   z-index: 2;
 }
 .tp-caption {
-  font-family: 'Lato', Arial !important;
+  font-family: '微軟正黑體', Arial !important;
   -webkit-font-smoothing: antialiased;
 }
 .tp-caption.large_white_bold {
@@ -535,9 +540,27 @@ section::after {
 .tp-caption.large_white_light {
   color: #ffffff;
   font-size: 65px;
-  font-weight: 400;
   font-weight: 300;
 }
+
+.tp-caption.large_light_gray {
+  color: #666666;
+  font-size: 65px;
+  font-weight: 300;
+}
+
+.tp-caption.mediumlarge_light_gray {
+  color: #666666;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.tp-caption.small_light_gray {
+  color: #666666;
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .btn {
   -webkit-border-radius: 3em;
   -moz-border-radius: 3em;
@@ -743,27 +766,30 @@ form textarea.form-control {
   }
 }
 header {
-  background: #efe39e;
+  background: #fffccc;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #efe39e 0%, #c68d11 100%);
+  background: -moz-linear-gradient(-45deg, #fffccc 0%, #fffaae 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #efe39e), color-stop(100%, #c68d11));
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #fffccc), color-stop(100%, #fffaae));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #efe39e 0%, #c68d11 100%);
+  background: -webkit-linear-gradient(-45deg, #fffccc 0%, #fffaae 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #efe39e 0%, #c68d11 100%);
+  background: -o-linear-gradient(-45deg, #fffccc 0%, #fffaae 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #efe39e 0%, #c68d11 100%);
+  background: -ms-linear-gradient(-45deg, #fffccc 0%, #fffaae 100%);
   /* IE10+ */
-  background: linear-gradient(-45deg, #efe39e 0%, #c68d11 100%);
+  background: linear-gradient(-45deg, #fffccc 0%, #fffaae 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#efe39e, endColorstr=#c68d11, GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fffccc, endColorstr=#fffaae, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 }
+
+/* navbar 右邊的字體顏色 */
 header .navbar-default ul.navbar-nav li a {
-  color: #ffffff;
+  color: #666666;
   background: none;
 }
+
 header .navbar-default ul.navbar-nav li a.getProduct {
   color: #3c79b4;
   background: #ffffff;
@@ -1037,9 +1063,12 @@ footer .rights a {
   background: #efe39e;
   border-color: #efe39e;
 }
+
+
+/* 調整搶先購買btn顏色 */
 .btn.btn-primary.inverse {
-  color: #ffffff;
-  border-color: #ffffff;
+  color: #666666;
+  border-color: #666666;
 }
 .btn.btn-primary.inverse:hover {
   color: #ffffff;
