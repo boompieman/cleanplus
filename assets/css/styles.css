@@ -842,7 +842,7 @@ header .navbar-default ul.navbar-nav li a:hover {
   transition: all 0.25s ease-in-out;
 }
 header .navbar-default.scrolled {
-  border-bottom: 3px solid #c68d11;
+  border-bottom: 3px solid #fff;
 }
 header .navbar-default.scrolled ul.navbar-nav li a {
   color: #c68d11;
