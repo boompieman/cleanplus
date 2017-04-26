@@ -842,7 +842,7 @@ header .navbar-default ul.navbar-nav li a:hover {
   transition: all 0.25s ease-in-out;
 }
 header .navbar-default.scrolled {
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #c68d11;
 }
 header .navbar-default.scrolled ul.navbar-nav li a {
   color: #c68d11;
@@ -859,6 +859,8 @@ header .navbar-default.scrolled .navbar-brand {
 section .section-heading .divider:after {
   background: #efe39e;
 }
+
+/* 使用者成效的外框圖案 */
 section#effectiveness .about-item i.fa {
   border: 2px solid #efe39e;
   color: #efe39e;
@@ -876,6 +878,8 @@ section#features {
 section#features header h1:after {
   background: #efe39e;
 }
+
+/* 使用方法外框 */
 section#features .media i.fa {
   border: 2px solid #efe39e;
   color: #efe39e;
@@ -1106,9 +1110,11 @@ form .form-control:focus {
   header .navbar-default .navbar-toggle:focus {
     background: none;
   }
+
+  /*scroll下collapse 的底線*/
   header .navbar-default ul.navbar-nav li a {
     color: #ffffff;
-    border-bottom: 1px solid #376fa4;
+    border-bottom: 1px solid none;
   }
   header .navbar-default ul.navbar-nav li a.getProduct {
     color: #ffffff;
@@ -1119,17 +1125,20 @@ form .form-control:focus {
   header .navbar-default ul.navbar-nav li a:hover {
     color: #efe39e;
   }
+  /* 調整scroll下collapse顏色*/
   header .navbar-default .navbar-collapse {
-    background: #c68d11;
+    background: #efe39e;
   }
+  /* 調整scroll背景顏色 */
   header .navbar-default.scrolled {
-    background: #c68d11;
+    background: #efe39e;
   }
+  /* 調整scroll文字顏色 */
   header .navbar-default.scrolled ul.navbar-nav li a {
-    color: #ffffff;
+    color: #c68d11;
   }
   header .navbar-default.scrolled ul.navbar-nav li a:hover {
-    color: #efe39e;
+    color: #ffffff;
   }
 }
 .pre-loader {
